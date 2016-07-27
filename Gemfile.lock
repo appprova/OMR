@@ -1,0 +1,25 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    deep_merge (1.0.1)
+    mini_magick (4.5.1)
+    mork (0.12.0)
+      deep_merge (~> 1.0)
+      mini_magick (~> 4.5)
+      narray (~> 0.6)
+      prawn (~> 2.1)
+    narray (0.6.1.2)
+    pdf-core (0.6.1)
+    prawn (2.1.0)
+      pdf-core (~> 0.6.1)
+      ttfunk (~> 1.4.0)
+    ttfunk (1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mork
+
+BUNDLED WITH
+   1.11.2
